@@ -1,0 +1,15 @@
+input TodoInsert {
+    title: String!
+    description: String
+}
+
+input TodoUpdate {
+    title: String
+    description: String
+}
+
+type Todo {
+    id: Int!,
+    title: String!,
+    description: String!
+}

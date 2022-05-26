@@ -1,7 +1,5 @@
-const User = require('./User');
-const SolarPlate = require('./SolarPlate');
+const Todo = require('./Todo');
 
 module.exports = {
-	...User,
-	...SolarPlate
+	...Todo
 };

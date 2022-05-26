@@ -1,9 +1,5 @@
 type Mutation {
-    insertUser(user: UserInsert): User!,
-    updateUser(id: Int, user: UserUpdate): User!,
-    deleteUser(id: Int): User,
-
-    insertSolarPlate(solarPlate: SolarPlateInsert): SolarPlate!,
-    updateSolarPlate(id: Int, solarPlate: SolarPlateUpdate): SolarPlate!,
-    deleteSolarPlate(id: Int): SolarPlate,
+    insertTodo(todo: TodoInsert): Todo
+    updateTodo(id: Int!, todo: TodoUpdate): Todo
+    deleteTodo(id: Int!): Todo
 }
